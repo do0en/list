@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .test-fade { @apply animate-fadein delay-300; }
+@layer utilities {
+  .test-fade { animation: fadein 0.9s ease-out forwards; animation-delay: 300ms; }
 }
